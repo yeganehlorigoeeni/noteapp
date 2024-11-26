@@ -1,32 +1,4 @@
-body{
-    background-color: black;
-    color: palevioletred;
-    margin: 0;
-    padding: 0;
-    height: 150vh;
-    border: 10px solid black;
-    border-radius: 20px;
-}
-.first-title{
-    border: 2px solid palevioletred;
-    border-radius: 60px;
-    margin: 10px;
-    z-index: 1;
-    
-}
-.p1{
-    font-size: 80px;
-   font-family: 'Times New Roman', Times, serif;
-   font-weight: bold;
-   text-align: center;
-}
-
-.p2{
-    font-size: 50px;
-    text-align: center;
-    font-family: serif;
-}
-.edit1{
+button{
     background-color: palevioletred;
     color: black;
     border: none;
@@ -35,73 +7,5 @@ body{
     font-weight: bold;
     border-radius: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    cursor: pointer;
-    position: absolute;
-    top: 447px;
-    left: 80px;
-    
+    cursor: pointer;   
 }
-.edit1:hover{
-    opacity: 0.7;
-}
-    .delete1{
-        background-color: palevioletred;
-        color: black;
-        border: none;
-        height: 45px;
-        width: 65px;
-        font-weight: bold;
-        border-radius: 35px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        cursor: pointer;
-        position: absolute;
-        top: 446px;
-        left: 150px;
-       
-    }
-    .delete1:hover{
-        opacity: 0.7;
-    }
-    .p3{
-        font-size: 50px;
-    text-align: center;
-    font-family: serif;
-    margin-top: 60px;
-    }
-.edit2{
-    background-color: palevioletred;
-    color: black;
-    border: none;
-    height: 45px;
-    width: 65px;
-    font-weight: bold;
-    border-radius: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    cursor: pointer;
-    position: absolute;
-    top: 661px;
-    left: 80px;
-    color: 0.2s;
-}
-.edit2:hover{
-    opacity: 0.7;
-}
-
-.delete2{
-    background-color: palevioletred;
-    color: black;
-    border: none;
-    height: 45px;
-    width: 65px;
-    font-weight: bold;
-    border-radius: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    cursor: pointer;
-    position: absolute;
-    top: 661px;
-    left: 149px;
-}
-.delete2:hover{
-    opacity: 0.7; 
-}
-
