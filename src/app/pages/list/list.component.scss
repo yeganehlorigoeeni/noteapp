@@ -9,3 +9,30 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
+.divc{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border:1px solid white;
+    border-radius: 10px;
+    padding: 10px; 
+    margin-top: 5px; 
+    margin: 10px 0; 
+}
+.divd{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dive{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end ;
+    gap: 8px;
+}
+p{
+    font-size: 20px; 
+}

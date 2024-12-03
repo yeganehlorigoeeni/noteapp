@@ -12,3 +12,20 @@ font-weight: bold;
 h1{
     color: yellow;
 }
+.div1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted yellow;
+     border-radius: 80px;
+     margin-top: 10px; 
+}
+.div2{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
